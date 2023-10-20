@@ -1,0 +1,118 @@
+{
+	"name": "Node.js",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {
+			"installZsh": "true",
+            "configureZshAsDefaultShell": "true",
+			"username": "node",
+			"upgradePackages": "true"
+		},
+		"ghcr.io/devcontainers/features/git:1": {
+            "version": "latest",
+            "ppa": "false"
+        }
+	},
+
+	// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			"settings": {
+				"[javascript]": {
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				  },
+				  "[typescript]": {
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				  },
+				  "[javascriptreact]": {
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				  },
+				  "[typescriptreact]": {
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				  },
+				  "[json]": {
+					"editor.defaultFormatter": "esbenp.prettier-vscode"
+				  },
+				  "audioCues.lineHasError": "off",
+				  "diffEditor.ignoreTrimWhitespace": false,
+				  "editor.acceptSuggestionOnEnter": "on",
+				  "editor.bracketPairColorization.enabled": true,
+				  "editor.codeActionsOnSave": {
+				    "source.addMissingImports": true,
+				    "source.fixAll.eslint": true,
+				    "source.fixAll.stylelint": true
+				  },
+				  "editor.inlineSuggest.enabled": true,
+				  "editor.minimap.enabled": false,
+				  "editor.quickSuggestions": {
+				    "comments": true,
+				    "other": true,
+				    "strings": true
+				  },
+				  "editor.renderWhitespace": "none",
+				  "editor.snippetSuggestions": "top",
+				  "editor.suggest.preview": true,
+				  "editor.suggestSelection": "first",
+				  "editor.tabSize": 4,
+				  "eslint.alwaysShowStatus": true,
+				  "eslint.format.enable": true,
+				  "eslint.probe": [
+				    "html",
+				    "javascript",
+				    "javascriptreact",
+				    "json",
+				    "markdown",
+				    "typescript",
+				    "typescriptreact",
+				    "vue"
+				  ],
+				  "explorer.confirmDragAndDrop": false,
+				  "files.associations": {
+				    "Dockerfile*": "dockerfile"
+				  },
+				  "files.eol": "\n",
+				  "files.exclude": {
+				    "**/.classpath": true,
+				    "**/.factorypath": true,
+				    "**/.mypy_cache": true,
+				    "**/.project": true,
+				    "**/.pytest_cache": true,
+				    "**/.settings": true,
+				    "**/.venv": true,
+				    "**/__pycache__": true
+				  },
+				  "files.formatOnPaste": true,
+				  "files.formatOnSave": true,
+				  "files.insertFinalNewline": true,
+				  "files.trimTrailingWhitespace": true,
+				  "gitlens.hovers.currentLine.over": "line",
+				  "javascript.format.semicolons": "insert",
+				  "javascript.updateImportsOnFileMove.enabled": "always",
+				  "jupyter.askForKernelRestart": false,
+				  "markdown.editor.tabSize": 4,
+				  "prettier.requireConfig": true,
+				  "typescript.preferences.importModuleSpecifier": "non-relative",
+				  "typescript.updateImportsOnFileMove.enabled": "always",
+				  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+				  "workbench.editor.tabSizing": "shrink",
+				  "zenMode.hideLineNumbers": false
+			},
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				"streetsidesoftware.code-spell-checker"
+			]
+		}
+	},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+
+	// Set `remoteUser` to `root` to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "node"
+}
