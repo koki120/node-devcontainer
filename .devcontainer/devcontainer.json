@@ -105,7 +105,8 @@
 				"dbaeumer.vscode-eslint",
 				"esbenp.prettier-vscode",
 				"streetsidesoftware.code-spell-checker",
-				"bierner.markdown-mermaid"
+				"bierner.markdown-mermaid",
+				"eamodio.gitlens"
 			]
 		}
 	},
