@@ -1,0 +1,11 @@
+# basic node dev-container
+## install packages
+- node : 21-bookworm
+- git : latest
+## vscode extensions
+- eslint
+- pretter
+- code-spell-checker
+- markdown-mermaid
+## debin options
+- zsh
