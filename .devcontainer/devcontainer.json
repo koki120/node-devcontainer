@@ -50,6 +50,8 @@
 				    "source.fixAll.eslint": true,
 				    "source.fixAll.stylelint": true
 				  },
+				  "editor.defaultFormatter": "esbenp.prettier-vscode",
+				  "editor.formatOnSave": true,
 				  "editor.inlineSuggest.enabled": true,
 				  "editor.minimap.enabled": false,
 				  "editor.quickSuggestions": {
@@ -73,6 +75,10 @@
 				    "typescript",
 				    "typescriptreact",
 				    "vue"
+				  ],
+				  // tsconfig.eslint.jsonを自動認識
+				  "eslint.workingDirectories": [
+					{ "mode": "auto" }
 				  ],
 				  "explorer.confirmDragAndDrop": false,
 				  "files.associations": {
