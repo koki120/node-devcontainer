@@ -1,6 +1,6 @@
 # basic node dev-container
 ## install packages
-- node : 21-bookworm
+- node : 18-bookworm
 - git : latest
 ## vscode extensions
 - eslint
