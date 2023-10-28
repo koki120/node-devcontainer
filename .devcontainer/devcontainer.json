@@ -105,6 +105,7 @@
 				  "jupyter.askForKernelRestart": false,
 				  "markdown.editor.tabSize": 4,
 				  "prettier.requireConfig": true,
+				  "search.useIgnoreFiles": false,
 				  "typescript.preferences.importModuleSpecifier": "non-relative",
 				  "typescript.updateImportsOnFileMove.enabled": "always",
 				  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
