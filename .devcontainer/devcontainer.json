@@ -123,6 +123,14 @@
 		}
 	},
 
+	// コンテナ名をつける
+	"runArgs": ["--name", "node-dev"],
+
+	// volumeに名前を付ける & volumeに保存
+	"mounts": [
+		"source=${localWorkspaceFolderBasename},target=${containerWorkspaceFolder},type=volume"
+	],
+
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
