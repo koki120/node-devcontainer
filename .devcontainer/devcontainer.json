@@ -8,10 +8,6 @@
 			"username": "node",
 			"upgradePackages": "true"
 		},
-		"ghcr.io/devcontainers/features/git:1": {
-            "version": "latest",
-            "ppa": "false"
-        },
 		"docker-in-docker": {
 			"version": "latest",
 			"moby": true,
