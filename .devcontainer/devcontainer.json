@@ -8,11 +8,7 @@
 			"username": "node",
 			"upgradePackages": "true"
 		},
-		"docker-in-docker": {
-			"version": "latest",
-			"moby": true,
-			"dockerDashComposeVersion": "v1"
-		}
+		"ghcr.io/devcontainers/features/docker-in-docker": {}
 	},
 
 	// Configure tool-specific properties.
