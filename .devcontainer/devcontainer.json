@@ -21,7 +21,8 @@
 				"esbenp.prettier-vscode",
 				"streetsidesoftware.code-spell-checker",
 				"bierner.markdown-mermaid",
-				"eamodio.gitlens"
+				"bradlc.vscode-tailwindcss",
+				"Prisma.prisma"
 			]
 		}
 	},
