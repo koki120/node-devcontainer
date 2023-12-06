@@ -8,7 +8,7 @@
 			"username": "node",
 			"upgradePackages": "true"
 		},
-		"ghcr.io/devcontainers/features/docker-in-docker": {}
+		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
 	},
 
 	// Configure tool-specific properties.
